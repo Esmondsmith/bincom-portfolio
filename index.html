@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="icon" href="images/eee.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css">
+    <link  href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
+
+
+</head>
+<body>
+
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="#"><img src="images/e.png" alt="" class="logo"></a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark fas-menu" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars fas-menu" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer.</p>
+            <h1>Hi, I'm <span><span class="esmond">E</span>smond,</span><br>Software Developer<br>From Nigeria. </h1>
+        </div>
+    </div>
+</div>
+
+
+<!-- ------------------ABOUT SECTION---------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me1.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title about-me">About Me</h1>
+                <p>
+                    Hello, I'm Esmond Agharovbokhan, a passionate and detail-oriented web developer with a keen eye for creating dynamic and user-friendly websites. I thrive on turning ideas into digital realities and enjoy the challenge of crafting a unique and responsive website. I have been working for more than one year now as a software developer with experience and skills in several web technologies that help create powerful, user-friendly websites.
+                </p>
+                <br>
+                <p>
+                    I love diving into complex coding challenges in an attempt to proffer solutions. Whether it's troubleshooting a bug, optimizing website performance, or implementing new features, I approach every problem with a solution-oriented mindset. I enjoy working alongside other fellow developers, and stakeholders, which makes me thrive in collaborative environments. Clear communication and teamwork are at the core of my approach to ensure successful project outcomes.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('technologies')">Skills / Technologies</p>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>2024 - Present</span><br>Web Development Tutor at SanerClimes Technologies</li>
+                        <li><span>2023 - 2024</span><br>Web Developer at Moat Academy & Technologies</li>
+                        <li><span>2022 - 2023</span><br>Project Manager at DanEhi Global Enterprise</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Web Development Training <br>
+                            <a href="https://moatacademy.com/" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a> Moat Academy for Developers
+                        </li>
+                        <li><span>2021</span><br><abbr title="Master of Business Administration"><b>M.B.A</b></abbr><br>
+                            <a href="https://kyrenia.edu.tr/?lang=en" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a> University of Kyrenia
+                        </li>
+                        <li><span>2014</span><br><abbr title="Bachelor of Science"><b>BS.c</b></abbr> <br>
+                            <a href="https://www.delsu.edu.ng/" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a> Delta State University
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="technologies">
+                    <ul>
+                        <li style="display: flex;"><i class="fa-brands fa-html5 fa-2xl" style="color: #b71f45;"></i><span> - HTML5</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-brands fa-css3 fa-2xl" style="color: #422697;"></i><span> - CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-bootstrap fa-2xl" style="color: #B197FC;"></i><span> - Bootstrap</span></li>
+                        <br><br>
+                        <li style="display: flex;"><i class="fa-brands fa-react fa-2xl" style="color: #1c5fd4;"></i><span> - ReactJS</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-brands fa-square-js fa-2xl" style="color: #FFD43B;"></i><span> - Javascript</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/jquery.png" width="50" height="30" ><span> - JQuery</span> 
+                        </li>
+                        <br><br>
+                        <li style="display: flex;"><i class="fa-solid fa-database fa-2xl" style="color: #4c962c;"></i><span> - MySQL</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa-brands fa-php fa-2xl" style="color: #6949ca;"></i></i><span> - PHP</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa-brands fa-github fa-2xl" style="color: #522cba;"></i><span> - GitHub</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- GALLERY SECTION -->
+<div id="gallery">
+    <div class="container">
+        <h1 class="sub-title gallery">Gallery</h1>
+        <div class="gallery-box">
+            <div >
+                <img src="images/me2.jpg" width="200px" height="250px" alt="">
+            </div>
+            <div >
+                <img src="images/all.jpg" width="200px" height="250px" alt="">
+            </div>
+            <div >
+                <img src="images/me3.jpeg" width="200px" height="250px" alt="">
+            </div>
+            <div >
+                <img src="images/me.png" width="200px" height="250px" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ------------------SERVICES SECTION---------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title service">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design & Development</h2>
+                <p>In the past, I have amassed a plethora of skills in the area of website design and development. In today's digital age, a compelling online presence is essential for businesses and individuals alike. Whether you are looking to establish a brand, enhance user engagement, or increase online visibility, I am here to help you achieve your goals through expert website development.
+                </p>
+                <a href="#">Learn More &#10095;&#10095; </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>UI/UX Designs & Responsive Interfaces</h2>
+                <p> In a world where user experience is paramount, having an intuitive and visually engaging interface is key to capturing your audience's attention. Transform your ideas into visually stunning and cohesive designs. I specialize in creating aesthetically pleasing interfaces that resonate with your brand identity, leaving a lasting impression on your users. I create designs that not only look great but also provide an intuitive and delightful experience for your audience.</p>
+                <a href="#">Learn More &#10095;&#10095;</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>Web Development Tutoring</h2>
+                <p>Unlock Your Web Development Potential with Personalized Tutoring. If you are eager to dive into the world of web development or enhance your existing skills, Look no further. I'm a passionate web developer with a strong desire to share my knowledge and expertise with aspiring learners like you. Whether you're a beginner taking your first steps or someone looking to deepen your understanding of web development, I offer personalized tutoring services tailored to your needs.</p>
+                <a href="#">Learn More &#10095;&#10095;</a>
+            </div>
+        </div>
+    </div>   
+</div>
+
+<!-- ------------------PROJECT PORTFOLIO SECTION---------------------------- -->
+
+<div id="portfolio">
+    <div class="container" id="projectsDiv">
+        <h1 class="sub-title project">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/todo.png" alt="">
+                <div class="layer">
+                    <h3>To-Do Task App</h3>
+                    <p>To-do task app for tracking daily planned activities, and users can add a To-do, edit, delete and even cancel out a task when it has been completed.<span style="color:#78c51a"><b> Technologies:</b></span> ReactJS and Bootstrap</p>
+                    <a href="https://task-app-esmonds-projects-03c70f99.vercel.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gas1.png" alt="">
+                <div class="layer">
+                    <h3>Gas Ordering App</h3>
+                    <p>A gas ordering system where sellers can register as a merchant and buyers can view seller's details and place orders on the KG of gas they want.<span style="color:#78c51a"><b> Technologies:</b></span> HTML, CSS, Bootstrap, MySQL and PHP.</p>
+                    <a href="https://moatcohorts.com.ng/c25/gas/index.php" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/home6.jpg" alt="">
+                <div class="layer">
+                    <h3>E-commerce App</h3>
+                    <p>E-commerce website where the seller can showcase all its products ranging from men, women, and kids, and buyers can view products, add to cart, and make an order.<span style="color:#78c51a"><b> Technologies:</b></span> Reactjs and CSS</p>
+                    <a href="#"><i class="fa-solid fa-link" target="_blank"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Hidden Details -->
+        <div class="work-list">
+            <div class="work more-projects">
+                <img src="images/proj.jpg" alt="">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p>Soon this project will be added</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work more-projects">
+                <img src="images/proj.jpg" alt="">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p>Soon this project will be added</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work more-projects">
+                <img src="images/proj.jpg" alt="">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p>Soon this project will be added</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#portfolio" class="btn" id="seeMoreBtn">Show More</a>
+    </div>
+</div>
+
+
+
+<!-- ------------------CONTACT SECTION---------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:esmondagha@gmail.com">esmondagha@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone-volume"></i><a href="tel:07035967785">07035967785</a></p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/esmond.smith2" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/esmond-agharovbokhan-7766a2274/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/home" target="_blank" title="X (Twitter)"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/esmond-cv.pdf" download class="btn btn2" id="download-btn" onclick="changeText()"><i class="fa-solid fa-download"></i> 
+                <span id="download-text">Download CV</span> 
+                </a>
+            </div>
+            <div class="contact-right">
+                <form name="#" style="position: relative;">
+                    <span id="allowedLetters" style="color: red; font-size: 18px;"></span>
+                    <input type="text" name="Name" id="formName" placeholder="Enter Name" required>
+                    <i class="fa-solid fa-circle-check fa-lg formName"  id="okIconName"></i>
+                    <input type="email" name="Email" id="formEmail" placeholder="Enter Email" required>
+                    <i class="fa-solid fa-circle-check fa-lg formEmail"  id="okIconEmail"></i>
+                    <textarea name="Message" id="formMessage"  rows="6" placeholder="Enter Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-arrow-up to-top"></i></a>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; <span id="copyrightYear"></span> - Esmond Portfolio. </p>
+    </div>
+</div>
+
+
+
+<script src="jquery.js" type="text/javascript"></script> 
+<script src="https://unpkg.com/scrollreveal"></script> 
+<script type="text/javascript">
+
+    //Jquery to reveal more projects
+    $(document).ready(function () {
+        //First, we initially hide the excess projects
+        $(".more-projects").hide();
+        //Then we show the project on click of the button
+        $('#seeMoreBtn').on("click", function (){
+            $(".more-projects").slideToggle();
+            // Toggle text between "Show More" and "Show Less"
+            var buttonText = $(this).text();
+            // $(this).text(buttonText === "Show More" ? "Show Less" : "Show More");
+            if(buttonText === "Show More"){
+                $(this).text("Show Less")
+            } else {
+                $(this).text("Show More")
+            }
+        });
+
+
+        //Make icon show on input (For name field)
+        $("#okIconName").hide(); //first hide the icon
+        $('#formName').on('input', function(){
+
+        var allowedName = $(this).val();
+        var acceptedChar = /^[a-zA-Z]+$/.test(allowedName);
+            if(acceptedChar){
+                $('#allowedLetters').text('');
+            } else {
+                $('#allowedLetters').text('Use letters from A - Z only!');
+                 
+                setTimeout(()=>{
+                    $('#allowedLetters').text('');
+                },2000)
+            }
+         //Icon For name field 
+        $("#okIconName").show();
+          if($('#formName').val() == ""){
+            $("#okIconName").hide();
+          }
+        })
+
+        //Icon For email field
+        $("#okIconEmail").hide();
+        $('#formEmail').on('input', function(){
+
+          $("#okIconEmail").show();
+
+          if($('#formEmail').val() == ""){
+            $("#okIconEmail").hide();
+          }
+        })
+
+
+    });
+
+    
+    //This is to switch among the about me sub
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link')
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab')
+        }
+        //This line is the add the colored line under the text on click
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab')
+    }
+
+
+    //JS for open and close menu
+    //The logic is that; On click on the menu bar, the style property right will be set to "0" meaning it will be visible, and when its clicked again, the style property will be set to right: "-400px" based on the css property, and the sidebar will be hidden again
+    var sideMenu = document.getElementById('sidemenu');
+    function openmenu(){
+        sideMenu.style.right = "0";
+    }
+    function closemenu(){
+        sideMenu.style.right = "-400px";
+    }
+
+
+    //For scroll behaviour
+    ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+    });
+        ScrollReveal().reveal('.service, .project', { delay: 300, origin: 'left' });
+        ScrollReveal().reveal('.about-col-1', { delay: 400, origin: 'bottom' });
+        ScrollReveal().reveal('.esmond', { delay: 600, origin: 'top' });
+        ScrollReveal().reveal('.social-icons i', { delay: 300, origin: 'bottom', interval: 200 });
+
+
+        //For button download function
+        function changeText(){
+            var downloadBtn = document.getElementById('download-btn');
+            var downloadText = document.getElementById('download-text');
+            var completed = '<i class="fa-regular fa-circle-check"></i> Completed';
+            var download = '<i class="fa-solid fa-download"></i> Download CV'
+
+            if(downloadBtn.innerHTML = download){
+                downloadBtn.innerHTML = completed;
+                setTimeout(()=>{
+                    downloadBtn.innerHTML = download;
+                }, 1500)
+            } 
+        }
+
+
+        //For dynamic Copyright year
+        let thisYear = new Date().getFullYear();
+        document.getElementById('copyrightYear').textContent = thisYear;
+
+
+</script>
+
+
+</body>
+</html>
