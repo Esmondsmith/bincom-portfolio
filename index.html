@@ -34,6 +34,7 @@
         <div class="header-text">
             <p>Software Developer.</p>
             <h1>Hi, I'm <span><span class="esmond">E</span>smond,</span><br>Software Developer<br>From Nigeria. </h1>
+            <button class="btn2 btnHire"><a href="#contactForm">Hire Me <i class="fa-solid fa-arrow-right"></i></a></button>
         </div>
     </div>
 </div>
@@ -58,7 +59,8 @@
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
-                    <p class="tab-links" onclick="opentab('technologies')">Skills / Technologies</p>
+                    <p class="tab-links" onclick="opentab('technologies')">Skills</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
                 </div>
                 <div class="tab-contents active-tab" id="experience">
                     <ul>
@@ -96,6 +98,14 @@
                         </li>
                     </ul>
                 </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Board Games</span><br>Chess and Scrabble</li>
+                        <li><span>Study</span><br>Reading and Learning new things</li>
+                        <li><span>Outdoor Activities</span><br>Sports, Sightseeing and Swimming</li>
+                        <li><span>Tv</span><br>Movies</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -117,7 +127,7 @@
                 <img src="images/me3.jpeg" width="200px" height="250px" alt="">
             </div>
             <div >
-                <img src="images/me.png" width="200px" height="250px" alt="">
+                <img src="images/me7.jpeg" width="200px" height="250px" alt="">
             </div>
         </div>
     </div>
@@ -236,7 +246,7 @@
                 </a>
             </div>
             <div class="contact-right">
-                <form name="#" style="position: relative;">
+                <form name="#" style="position: relative;" id="contactForm">
                     <span id="allowedLetters" style="color: red; font-size: 18px;"></span>
                     <input type="text" name="Name" id="formName" placeholder="Enter Name" required>
                     <i class="fa-solid fa-circle-check fa-lg formName"  id="okIconName"></i>
